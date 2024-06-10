@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #9fc5eb;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#formulario {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+#formulario label {
+    display: block;
+    margin-bottom:10px;
+    font-weight: bold;
+    color: #c82333;
+    font-size: large;
+    font-size: 3.2;
+}
+
+#formulario input[type="text"] {
+    width: 300px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#formulario button {
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#formulario button:hover {
+    background-color: #0056b3;
+}
+
+#lista_tarefa {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+#lista_tarefa li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#lista_tarefa li input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+#lista_tarefa li button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#lista_tarefa li button:hover {
+    background-color: #c82333;
+}
